@@ -1,0 +1,24 @@
+Package: biowareapi
+Type: Package
+Title: An R client for bioware API
+Version: 0.1.0
+License: GPL-3
+Authors@R: person("Mahmoud", "Ahmed",
+  email = "mahmoud.s.fahmy@students.kasralainy.edu.eg",
+  role = c("aut", "cre"))
+URL: https://github.com/MahShaaban/biowareapi
+BugReports: https://github.com/MahShaaban/biowareapi/issues
+Description: Provide a set of functions to interact with the bioware.ucd.ie API
+  in R. The functions are organized a round the API programs. The query 
+  parameters are checked and the output is returned in a tibble.
+Encoding: UTF-8
+Depends: R (>= 2.10)
+Remotes: abifromr/apihelpers
+Imports: httr,
+  readr,
+  usethis,
+  apihelpers,
+Suggests: 
+    testthat,
+    covr
+RoxygenNote: 6.1.1
