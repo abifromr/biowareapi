@@ -6,8 +6,8 @@ License: GPL-3
 Authors@R: person("Mahmoud", "Ahmed",
   email = "mahmoud.s.fahmy@students.kasralainy.edu.eg",
   role = c("aut", "cre"))
-URL: https://github.com/MahShaaban/biowareapi
-BugReports: https://github.com/MahShaaban/biowareapi/issues
+URL: https://github.com/abifromr/biowareapi
+BugReports: https://github.com/abifromr/biowareapi/issues
 Description: Provide a set of functions to interact with the bioware.ucd.ie API
   in R. The functions are organized a round the API programs. The query 
   parameters are checked and the output is returned in a tibble.
